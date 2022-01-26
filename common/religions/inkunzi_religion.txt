@@ -35,27 +35,38 @@ celestialism_group = {
 		icon = 13
 
 		country = {
-			idea_cost = -0.05
-			tolerance_heathen = 1
+			technology_cost = -0.1
+			tolerance_heretic = 2
 		}
 		country_as_secondary = {
-			idea_cost = -0.05
-			tolerance_own = 1
+			siege_ability = 0.1
+			defensiveness = 0.1
+		}
+		province = {
+			local_governing_cost = -0.25
 		}
 
-		on_convert = {
-			change_religion = sunfucian
-			add_prestige = -100
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		
+		heretic = { RAMSEYISM }
+
+		holy_sites = { 358 1227 2313 1234 419 }
+
+		blessings = {
+			taisung
+            		yuélua
+            		lei_nei
+            		bíti_tchong
+            		czibir
+            		àmuksmus
+            		zé_lá_sî
+            		ragzmus
+            		vescarbios
+            		adamastador
+            		talixias
 		}
-		
-		heretic = { HERETIC_GENERIC }
 	}
+	crusade_name = CRUSADE
+	}
+
 	rationalist_celestialism = {
 		color = { 82 0 94 }
 		icon = 16
